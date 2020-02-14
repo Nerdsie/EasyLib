@@ -1,0 +1,12 @@
+name: MyAPI
+version: 1.0
+url: nerdspvp.com
+author: NerdsWBNerds
+main: com.collinsrichard.myapi.MyAPI
+description: API for NerdsPvP
+softdepend: [ProtocolLib]
+load: STARTUP
+commands:
+   api:
+      description: General information.
+      usage: /<command>
